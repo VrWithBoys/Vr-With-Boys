@@ -29,7 +29,7 @@ public class Cube : MonoBehaviour
 
         xInput = Input.GetAxis("Horizontal");
         zInput = Input.GetAxis("Vertical");
-        cube.AddForce(xInput,0,zInput);
+        cube.AddForce(xInput*speed,0,zInput*speed);
     }
 
     private void OnMouseDown(){
