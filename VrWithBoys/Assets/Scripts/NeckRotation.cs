@@ -5,27 +5,21 @@ using UnityEngine;
 public class NeckRotation : MonoBehaviour
 {
     public Quaternion startQuaternioin;
-    public float lerpTime = 1;
-    public bool rotate;
-    float xInput;
+    public Vector3 quaternionToVector;
+    public Vector3 MoveVector;
     // Start is called before the first frame update
     void Start()
     {
-        startQuaternioin = transform.rotation;
+        startQuaternioin = transform.rotation;     
     }
-
-    // public float speed = 100;
-    
-    // public GameObject chracterNeck;
     
     void Update()
     {
-     if(rotate){
-         transform.rotation = Quaternion.Lerp(transform.rotation,startQuaternioin,Time.deltaTime*lerpTime);
-     }  
-    }
-
-    public void snapRotation(){
-        transform.rotation = startQuaternioin;
+        Debug.Log("Forward " + Camera.main.transform.forward);
+        Debug.Log("Rotation: " + Camera.main.transform.rotation);
+        Debug.Log("Angle: " + Camera.main.velocity);
+        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(Camera.main.transform.eulerAngles),Time.deltaTime*Camera.main.velocity[0]);
+        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(Camera.main.transform.eulerAngles),Time.deltaTime*Camera.main.velocity[1]);
+        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(Camera.main.transform.eulerAngles),Time.deltaTime*Camera.main.velocity[2]);
     }
 }
