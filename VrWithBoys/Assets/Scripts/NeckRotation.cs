@@ -7,7 +7,7 @@ public class NeckRotation : MonoBehaviour
     public Quaternion startQuaternioin;
     public Vector3 quaternionToVector;
     public Vector3 MoveVector;
-    public float lerpTime = 20;
+    public float lerpTime = 40;
     void Start()
     {
          
