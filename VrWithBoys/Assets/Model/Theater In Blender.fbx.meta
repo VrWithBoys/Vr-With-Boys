@@ -1,122 +1,114 @@
 fileFormatVersion: 2
-guid: 45464e17d41ab6340a417395c9d20eda
+guid: 451f5475a4f56ab49b87910dc9346206
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: 8440248360967096626
-    second: Camera|CameraAction
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: AS
-    second: {fileID: 2100000, guid: fb1dd213a0377c445b2a20a6a8efe708, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 5f57fdabd2f3120438c77a7a3f96573d, type: 2}
+    second: {fileID: 2100000, guid: 47183a83c28dfea429f76db3071ecfa8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cylindr
-    second: {fileID: 2100000, guid: 1b03904b6edc56747bdf0c2553b89064, type: 2}
+    second: {fileID: 2100000, guid: 3efc28c7863985b4988c458fef60361d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Emmision
-    second: {fileID: 2100000, guid: 7482f1c5fc6fa994397983cf4fd9a2d9, type: 2}
+    second: {fileID: 2100000, guid: 3e8fb96a8c462764a9e7a951800bb46f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Emmision.001
-    second: {fileID: 2100000, guid: 4983e29a2748287439f4d6bc977c7766, type: 2}
+    second: {fileID: 2100000, guid: 12aeaaec3890bef4d85a0dc284dcc522, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emmision.002
+    second: {fileID: 2100000, guid: 77ee07fdd17bcdd45afc384810549d1f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Emnmm
-    second: {fileID: 2100000, guid: 3d51835368446f843834eb0d3c08d681, type: 2}
+    second: {fileID: 2100000, guid: 504fa5a33d4a6bf41b20fabb2a9e7ace, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Face
-    second: {fileID: 2100000, guid: 616f2dd2db55a7642a527145b764e57e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Forged
-    second: {fileID: 2100000, guid: 453f52e5d48062043842a3ae19fe7fda, type: 2}
+    second: {fileID: 2100000, guid: 6e865990242d65d47933f0b7d58ee00a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Herx
-    second: {fileID: 2100000, guid: 6b4bcf0de4bd67445b75401b90edb557, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Herx.001
-    second: {fileID: 2100000, guid: f83feedf1ebbe714c9ce71fa406a1b3b, type: 2}
+    second: {fileID: 2100000, guid: 6bc85415c1c83bd42a41fff7f3bc215c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Lamp
-    second: {fileID: 2100000, guid: aa9efd82bfc823144becf7b0f6f0b0b8, type: 2}
+    second: {fileID: 2100000, guid: 31f0bc8bc8257d04c86e4399349fb2d4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Layer 1
-    second: {fileID: 2100000, guid: b5ac4109164929a469430956d451ffc6, type: 2}
+    second: {fileID: 2100000, guid: e4152771cb6751a46b98ccd251151db0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Layer 2
-    second: {fileID: 2100000, guid: 8a26bbb508785164882c30589ed9e2b8, type: 2}
+    second: {fileID: 2100000, guid: 8f92aae1c85b3cd49a40f57529d7eab2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 9bdadcc304c038c4d8c25ce94eea88da, type: 2}
+    second: {fileID: 2100000, guid: 438b20ce6da018448b61525edfe600f5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 7bea89f5bd998ee4ca0540d33601954c, type: 2}
+    second: {fileID: 2100000, guid: 9e934cf48f535bf48b32a96b240bc51b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 3582c363aac7d744b9362038a32f1a24, type: 2}
+    second: {fileID: 2100000, guid: 102f0e0a275e7f046beb8adcde4dab2b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: aa0999372a11dab41ae0f88a214bbc2f, type: 2}
+    second: {fileID: 2100000, guid: 221947e5d8b69684aaaad4e7f679d9b6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.004
-    second: {fileID: 2100000, guid: 4c2086a5ad95e414a95fe8f37ac9249d, type: 2}
+    second: {fileID: 2100000, guid: 09748ab537df4e042b425c8dee360ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 5387bd03857904444a7fdad22720233a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.006
-    second: {fileID: 2100000, guid: a11db8e7ef2cb3f4dbda3232d9739e8f, type: 2}
+    second: {fileID: 2100000, guid: debd94c5f2373f44880f57b1b8505b65, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal
-    second: {fileID: 2100000, guid: 46867f7ed44e50b40be8ec451b1e587d, type: 2}
+    second: {fileID: 2100000, guid: cbc6a6f61a6d6be4a9677fcd78007fdc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Railing
-    second: {fileID: 2100000, guid: a600233d375fce44aa9f93890435121a, type: 2}
+    second: {fileID: 2100000, guid: 7ebbf2de68f78ec4596cfa8364f483a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chair
-    second: {fileID: 2100000, guid: 5e1060bdf93f65543ad9b68dff9f23ee, type: 2}
+    second: {fileID: 2100000, guid: 8dca3b4b9f372c14bb0f326ce23ec0e9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -148,7 +140,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 3
+    meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
