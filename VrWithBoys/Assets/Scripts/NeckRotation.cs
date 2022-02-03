@@ -5,6 +5,7 @@ using UnityEngine;
 public class NeckRotation : MonoBehaviour
 {
     public float lerpTime = 40;
+    public Camera characterCam;
   
     void Start()
     {
@@ -13,6 +14,6 @@ public class NeckRotation : MonoBehaviour
     
     void Update()
     {
-        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(Camera.main.transform.eulerAngles),Time.deltaTime*lerpTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(characterCam.transform.eulerAngles),Time.deltaTime*lerpTime);
     }
 }
