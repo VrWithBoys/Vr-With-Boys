@@ -11,42 +11,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ch22_body
-    second: {fileID: 2100000, guid: c2bfa7a1dd7e433418cf51501503bf2b, type: 2}
+    second: {fileID: 2100000, guid: 25f3d7372f3a23942ad453325ff417b7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ch22_hair
-    second: {fileID: 2100000, guid: 7bf9c5c5178a07340b7fc56d85998e22, type: 2}
+    second: {fileID: 2100000, guid: 5b0cbbea036f2b84f8d75a5bdfe8ef38, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1001_Diffuse
-    second: {fileID: 2800000, guid: 421e10017acea5244ab116fb1069bb40, type: 3}
+    second: {fileID: 2800000, guid: 91b0a22b1a8ea3d43a52ea0c91796ebd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1001_Glossiness
-    second: {fileID: 2800000, guid: 73287d7815ec65542bb1dfd8d935487a, type: 3}
+    second: {fileID: 2800000, guid: 61d86a107a3235a459733ef20adc968c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1001_Normal
-    second: {fileID: 2800000, guid: 22bb13c27bd6ebf4c973e6dd95648560, type: 3}
+    second: {fileID: 2800000, guid: 37b21152258aa5640bb4d36ad90aad9e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1001_Specular
-    second: {fileID: 2800000, guid: 7038148a9b9b16a4899523ded40557d2, type: 3}
+    second: {fileID: 2800000, guid: 33c4d42af73ff7348975248ed0a91f1e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1002_Diffuse
-    second: {fileID: 2800000, guid: 0743064753dde654a9d53a2a7d14063c, type: 3}
+    second: {fileID: 2800000, guid: 21c2f2cfc988fc849a2a353b7f1d0182, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch22_1002_Normal
-    second: {fileID: 2800000, guid: b89dcb6498e0ae04f8e6210248c85c27, type: 3}
+    second: {fileID: 2800000, guid: b86e8eba9d0707648ab98252d35cfa01, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
