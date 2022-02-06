@@ -18,6 +18,7 @@
 
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Sends messages to gazed GameObject.
@@ -34,6 +35,7 @@ public class CameraPointer : MonoBehaviour
     {
         // Casts ray towards camera's forward direction, to detect if a GameObject is being gazed
         // at.
+        Debug.Log(transform.eulerAngles.z);
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, _maxDistance))
         {
@@ -54,9 +56,10 @@ public class CameraPointer : MonoBehaviour
         }
 
         // Checks for screen touches.
-        if (Google.XR.Cardboard.Api.IsTriggerPressed)
+        if (transform.eulerAngles.z>15&&transform.eulerAngles.z<345)
         {
             _gazedAtObject?.SendMessage("OnPointerClick");
+            Debug.Log("click");
         }
     }
 }

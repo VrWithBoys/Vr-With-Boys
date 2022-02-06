@@ -16,7 +16,7 @@ public class NeckRotation : MonoBehaviour
     void Update()
     {
         neck.transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(cam.transform.eulerAngles),Time.deltaTime*lerpTime);
-	cam.transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(neck.transform.eulerAngles),Time.deltaTime*lerpTime);
+	
 
     }
 }
