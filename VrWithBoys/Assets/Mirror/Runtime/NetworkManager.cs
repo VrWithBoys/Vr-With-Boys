@@ -458,7 +458,7 @@ namespace Mirror
             //             get OnDeserialize calls, where SyncVar hooks are usually
             //             called):
             //
-            //               if (!SyncVarEqual(value, ref color))
+            //               if (!SyncVarEqual(value, .nameref color))
             //               {
             //                   if (NetworkServer.localClientActive && !getSyncVarHookGuard(1uL))
             //                   {
