@@ -79,6 +79,8 @@ public class VrModeController : MonoBehaviour
         {
             Api.ScanDeviceParams();
         }
+
+        EnterVR();
     }
 
     /// <summary>

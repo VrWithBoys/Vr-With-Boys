@@ -30,6 +30,9 @@ namespace VrWithBoys.Mirror.Lobby
         {
             // string ipAddress = ipAddressInputField.text;
             string ipAddress = localIpAddress;
+            
+            if(ipAddressInputField.text != null)
+                ipAddress = ipAddressInputField.text;
 
             networkManager.networkAddress = ipAddress;
             networkManager.StartClient();
