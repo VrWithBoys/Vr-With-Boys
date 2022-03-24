@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.Networking;
+using Mirror;
 
 [System.Serializable]
 public struct VideosToPlay
@@ -8,13 +10,18 @@ public struct VideosToPlay
     public double currentTime;
 }
 
-public class CinemaManager : MonoBehaviour
+public class CinemaManager : NetworkBehaviour
 {
     public VideosToPlay[] videos;
     public AudioSource speakerSource;
     VideoPlayer videoPlayer;
     int currentCount = 0;
-
+public GameObject videoObj;
+public float playSpeed;
+public bool start;
+[SyncVar]
+public double videoTime;
+public double difference;
     private void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
@@ -25,6 +32,24 @@ public class CinemaManager : MonoBehaviour
 
     private void Update()
     {
+
+        if (isServer) {
+videoTime = videoObj.GetComponent<VideoPlayer> ().time;
+}
+if (!isServer) {
+if (start && videoTime != 0) {
+videoObj.GetComponent<VideoPlayer> ().time = videoTime;
+start = false;
+}
+difference = videoObj.GetComponent<VideoPlayer> ().time - videoTime;
+if (difference > 0.1f) {
+videoObj.GetComponent<VideoPlayer> ().playbackSpeed = 0.8f;
+} else if (difference < 0.1f) {
+videoObj.GetComponent<VideoPlayer> ().playbackSpeed = 1.2f;
+} else {
+videoObj.GetComponent<VideoPlayer> ().playbackSpeed = 1f;
+}
+}
             if (Input.GetKeyDown(KeyCode.N))
             {
                 videos[currentCount].currentTime = videoPlayer.time;
