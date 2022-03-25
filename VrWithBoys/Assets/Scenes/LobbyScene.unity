@@ -3125,6 +3125,7 @@ MonoBehaviour:
   menuScene: Assets/Scenes/LobbyScene.unity
   roomPlayerPrefab: {fileID: -7995998004213130023, guid: a021ca538361dce44a1bec3672d65e6f, type: 3}
   gamePlayerPrefab: {fileID: 6402264812643326507, guid: e2c6cb93b0b7bea439af7394fb865fc4, type: 3}
+  playerSpawnSystem: {fileID: 0}
 --- !u!1 &1904941306
 GameObject:
   m_ObjectHideFlags: 0
